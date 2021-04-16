@@ -1,10 +1,6 @@
 # Bitcoin-Balance
 
 
-## Introduction
-[![Watch the video](https://images2.imgbox.com/6d/21/UDgs6QRj_o.png)](https://www.youtube.com/watch?v=9tEfDZU2MsY)
-
-
 ## Challenge
 
 <p>The <a href="https://blockbook-bitcoin.tronwallet.me/">Blockbook</a> platform has an API in which shows transactions made in bitcoins, contains: id, values, confirmations, etc:</p>
@@ -32,10 +28,30 @@ bc1q7cyrfmck2ffu2ud3rn5l5a8yv6f0chkp0zpemf
 }
 ```
 
+<p>Notice that there is an attribute with the name 'confirmations'. For a confirmation to be valid, a minimum of 2 confirmations must occur.</p>
+
+<p>The challenge is to obtain records of valid confirmations and generate your balance, as well as invalid confirmations and generate your balance.</p>
+
+<p><b>The challenge has some technical prerequisites, but for the sake of ethics I will pass only what is necessary</b></p>
 
 
+## Some prerequisites
+<ul>
+  <li>Backend: Golang</li>
+  <li>Frontend: React JS</li>
+</u>
 
 
 
 ## Devices
 <a href="https://imgbox.com/2yj257ck" target="_blank"><img src="https://images2.imgbox.com/82/1c/2yj257ck_o.png" alt="image host"/></a>
+
+
+
+## Resolution
+[![Watch the video](https://images2.imgbox.com/6d/21/UDgs6QRj_o.png)](https://www.youtube.com/watch?v=9tEfDZU2MsY)
+
+
+
+
+
