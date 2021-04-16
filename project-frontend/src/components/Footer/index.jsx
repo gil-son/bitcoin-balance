@@ -15,16 +15,11 @@ const Footer = () => {
         <>
             <div className="contauner-fluid">
                 <footer className="bg-light text-center text-lg-start">
-
                     <div className="container p-4">
-
                         <div className="row">
-
                             <div className="col-lg-4 col-md-12 mb-4 mb-md-0">                            
-
                                 <p>
                                     <h5 className="txt-footer">Social Networks</h5>
-
                                 <div className="d-flex justify-content-center">
                                     <div className="icons">                                    
                                         <a href="#" className="img-icons"><FaLinkedin size="1.4x"/></a>
