@@ -16,7 +16,7 @@ function App() {
   return (
     <>
       <BrowserRouter>
-         <header>
+         <header> 
             <Header/>    
          </header>
          <main>
