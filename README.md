@@ -1,5 +1,10 @@
 # Bitcoin-Balance
 
+## Introduction
+
+<p>This project is a challenge proposed by <a href="https://klever.io/en/">Klever<a/>, for the sake of ethics, I will pass on basic information.</p>
+<p>Klever.io is a crypto wallet ecosystem serving over 2 million users from more than 200 countries worldwide.</p>
+
 
 ## Challenge
 
@@ -44,11 +49,15 @@ bc1q7cyrfmck2ffu2ud3rn5l5a8yv6f0chkp0zpemf
 
 
 ## Devices
+<p>The project serves web, tablet and mobile:</p>
+
 <a href="https://imgbox.com/2yj257ck" target="_blank"><img src="https://images2.imgbox.com/82/1c/2yj257ck_o.png" alt="image host"/></a>
 
 
 
 ## Resolution
+<p>In this video it shows the project being executed and solving the challenge:
+  
 [![Watch the video](https://images2.imgbox.com/6d/21/UDgs6QRj_o.png)](https://www.youtube.com/watch?v=9tEfDZU2MsY)
 
 
