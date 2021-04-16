@@ -16,7 +16,6 @@ import RoscaChart from '../../components/Charts';
 const Home = () =>{
 
     const[data, setData] = React.useState([]);
-    
     const[code, setCode] = React.useState("");
     const[render, setRender] = React.useState(false);
 
@@ -75,28 +74,27 @@ const Home = () =>{
 
         <div className="container-fluid">            
             <div className="row my-4 justify-content-around consult shadow">
-                <div className="col-5">
+                <div className="col-sm-9 col-md-5 ">
                 <form onSubmit={Consult}>
                                       <div className="form-group my-3">
                                           <label for="inome">Address Code</label>
                                           <input type="text" value={code} onChange={(event) => setCode(event.target.value)} className="form-control" id="inome" name="info" placeholder="Type the  address code here..." required/>
-                                      </div>
-                                    
+                                      </div>                          
                                   <button type="submit" className="btn btn-success px-4 submit">Submit</button>
                 </form>
                 {data.map( row =>                                
-                                                  <Card className="my-1 shadow " key={row.id}>
+                                                  <Card className="my-1 shadow card" key={row.id}>
                                                       <Card.Body className="py-2 w-100">
                                                           <Card.Text>
-                                                               <span className="text-primary">Confirmed Bal.:</span><span className="text-success">{row.confirmed}</span>&nbsp;|&nbsp;
-                                                               <span className="text-primary">Unconfirmed Bal.:</span><span className="text-dark">{row.unconfirmed}</span>       
+                                                               <p className="text-primary">Confirmed Bal.:<span className="text-success">{row.confirmed}</span></p>
+                                                               <p className="text-primary">Unconfirmed Bal.:<span className="text-dark">{row.unconfirmed}</span></p>       
                                                                <RoscaChart confirmed={row.confirmed} unconfirmed={row.unconfirmed} />
                                                           </Card.Text>                                    
                                                       </Card.Body>
                                                   </Card>
                                           )}
                 </div>   
-                <div className="col-5 my-5">
+                <div className="col-sm-9  col-md-5 col-lg-6 my-5">
                     <Carroussel />
                 </div>
             </div>
@@ -113,6 +111,5 @@ const Home = () =>{
         </div>
     );
 }
-
 
 export default Home;
