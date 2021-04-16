@@ -1,0 +1,12 @@
+.col-12 {
+    padding: 0;
+}
+
+.consult{
+    height: 32rem;
+}
+
+.submit:hover{
+    background: linear-gradient(#28a745,black);
+    
+}

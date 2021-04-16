@@ -1,0 +1,41 @@
+.menu {
+    background: linear-gradient(217deg, rgba(0, 204, 255, 0.8), rgba(255,0,0,0) 70.71%),
+            linear-gradient(127deg, rgba(0,255,0,.8), rgba(0,255,0,0) 70.71%),
+            linear-gradient(336deg, rgba(0,0,255,.8), rgba(0,0,255,0) 70.71%);
+    height: 5rem;
+}
+
+.font-menu {
+    font-size: 1.1rem;
+    letter-spacing: .2rem;
+}
+
+.img-logo {
+    width: 64px;
+    padding-top: .2rem;
+}
+
+.btn.focus, 
+.btn:focus {
+    box-shadow: none !important;
+}
+
+.btn {
+    color: rgba(255,255,255,.75) !important;
+    font-size: 1.1rem !important;
+    font-weight: bold !important;
+}
+
+.btn:hover {
+    color: white;
+}
+
+/* Responsive */
+
+@media (max-width: 991px) {
+    .img-logo {
+        width: 38px;
+        padding-top: 0;        
+    }
+
+}

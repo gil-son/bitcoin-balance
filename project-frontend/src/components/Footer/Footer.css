@@ -1,0 +1,26 @@
+.txt-footer {
+    font-family: 'Nunito', sans-serif;
+    font-size: 1.2rem;
+}
+
+.icons {
+    margin: 1rem;
+}
+
+.img-icons {
+    color: linear-gradient(217deg, rgba(0, 204, 255, 0.8), rgba(255,0,0,0) 70.71%),
+            linear-gradient(127deg, rgba(0,255,0,.8), rgba(0,255,0,0) 70.71%),
+            linear-gradient(336deg, rgba(0,0,255,.8), rgba(0,0,255,0) 70.71%);
+}
+
+.copy {
+    font-size: .85rem;
+}
+
+/* Responsive */
+
+@media (max-width: 991px) {
+    .icons {
+        width: 40px;
+    }
+}

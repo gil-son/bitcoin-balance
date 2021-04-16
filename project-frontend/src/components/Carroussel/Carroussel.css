@@ -1,0 +1,40 @@
+.font-carousel {    
+    color: white;
+    font-style: italic;
+    text-shadow: 1px 1px 2px black;
+}
+
+.font-carousel + p{
+    font-size: clamp(.7rem, 1.4vw, 2rem); 
+}
+
+h3 {
+    font-size: clamp(.8rem, 2.5vw, 4rem); 
+    font-weight: bold;
+}
+
+.img-big{
+    width: 160px;
+}
+
+.img-small {
+    width: 70px;
+}
+
+/* Responsive */
+
+@media (max-width: 590px) {
+    .img-big{
+        width: 80px;
+    }
+
+    .img-small {
+        width: 40px;
+    }
+}
+
+@media (max-width: 415px) {
+    .font-carousel + p {
+        display: none;
+    }
+}
