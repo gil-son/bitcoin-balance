@@ -17,15 +17,11 @@ import {Carousel} from 'react-bootstrap';
 import Recode from './img/recode.jpg';
 import Klever from './img/klever_400x400.jpg';
 
-
 // Styles
 import './Carroussel.css';     
 
-
-
  export const Carroussel = () => {
  
-
     return (
         
           <>
@@ -64,9 +60,7 @@ import './Carroussel.css';
                   <h5 className="font-carousel">Invest in your future!</h5>
                 </Carousel.Caption>
               </Carousel.Item>
-
               
-
             </Carousel>
           </>
     );
@@ -94,15 +88,7 @@ export const CarrousselSupporters = () => {
                 className="img-big" alt="logo Klever"/>            
             </div>
 
-            <div>
-              <img src={Klever} 
-                className="img-big" alt="logo Recode"/>            
-            </div>
-
-            <div>
-              <img src={Recode} 
-                className="img-big" alt="logo Klever"/>
-            </div>
+            
 
           </div>
       </section>
