@@ -23,10 +23,8 @@ function BaseMenu(props){
                         <Navbar.Brand as={Link} href="/" to = "/">
                             <img src={Logo} alt="logomarca Re-ciclo" className="img-logo"/>
                         </Navbar.Brand>
-                        <Navbar.Toggle aria-controls="item-menu"/>
-                        
+                        <Navbar.Toggle aria-controls="item-menu"/>                     
                         <Navbar.Collapse id="item-menu" className="justify-content-between font-weight-bold">
-
                         </Navbar.Collapse>                        
                     </Navbar>                
         );    
