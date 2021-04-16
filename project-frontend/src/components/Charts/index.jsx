@@ -20,13 +20,11 @@ import { Doughnut } from 'react-chartjs-2';
                 label: 'Confirmed B$ vs. Unconfirmed B$',
                 data: [confirmed, unconfirmed],
 
-                
                 backgroundColor: ['rgba(0, 204, 0, 0.5)',
                     'rgba(55, 99, 132, 0.5)'
                 ],
                 borderColor: ['rgba(0, 204, 0, 0.1)',
                     'rgba(255, 99, 132, 0.1)'
-
                 ],
             }
         ]
@@ -34,6 +32,7 @@ import { Doughnut } from 'react-chartjs-2';
 
     const options = {
         title: {
+            text: 'Confirmed/Unconfirmed Balance',
             display: true
         }
     }
@@ -42,7 +41,6 @@ import { Doughnut } from 'react-chartjs-2';
         <div>
             <Doughnut data={data}
                 options={options}
-
             />
         </div>
     )
