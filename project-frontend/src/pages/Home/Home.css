@@ -2,11 +2,44 @@
     padding: 0;
 }
 
-.consult{
-    height: 32rem;
-}
 
 .submit:hover{
     background: linear-gradient(#28a745,black);
     
 }
+
+@media only screen and (min-width: 319px) {
+    .consult {
+        height: 40rem;
+    }
+  }
+
+  @media only screen and (min-width: 419px) {
+    .consult {
+        height: 48rem;
+    }
+  }
+
+  @media only screen and (min-width: 519px) {
+    .consult {
+        height: 54rem;
+    }
+  }
+
+  @media only screen and (min-width: 619px) {
+    .consult {
+        height: 60rem;
+    }
+  }
+
+  @media only screen and (min-width: 800px) {
+    .consult {
+        height: 65rem;
+    }
+  }
+
+  @media only screen and (min-width: 801px) {
+    .consult {
+        height: 32rem;
+    }
+  }
