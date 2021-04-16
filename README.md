@@ -20,7 +20,7 @@
 bc1q7cyrfmck2ffu2ud3rn5l5a8yv6f0chkp0zpemf
 ```
 
-<p>provided by the platform itself, <a href="https://blockbook-bitcoin.tronwallet.me/block/679453"> see </a></p>.
+<p>provided by the platform itself, <a href="https://blockbook-bitcoin.tronwallet.me/block/679453"> see.</a></p>
 
 <p>So it is possible to consult the API:</p>
 
@@ -37,7 +37,7 @@ bc1q7cyrfmck2ffu2ud3rn5l5a8yv6f0chkp0zpemf
 
 <p>The challenge is to obtain records of valid confirmations and generate your balance, as well as invalid confirmations and generate your balance.</p>
 
-<p><b>The challenge has some technical prerequisites, but for the sake of ethics I will pass only what is necessary</b></p>
+<p><b>The challenge has some technical prerequisites, but for the sake of ethics I will pass only what is necessary.</b></p>
 
 
 ## Some prerequisites
