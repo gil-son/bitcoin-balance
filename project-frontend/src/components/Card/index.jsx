@@ -28,8 +28,7 @@ const CardsReciclo = () => {
                     }}
                     >
                     <div className='text-white mx-auto d-flex align-items-center py-5 card-size'>
-                        <div>
-                        
+                        <div>      
                             <MDBCardTitle tag='h3' className='pt-2 text-center'>
                                 <strong>Meet our projects and team</strong>
                             </MDBCardTitle>
@@ -43,7 +42,6 @@ const CardsReciclo = () => {
                     </div>
                     </MDBCard>
                 </MDBCol>
-
                 <MDBCol className="col-12 col-sm-4 px-3 d-flex justify-content-center">
                     <MDBCard
                     className='card-image'
